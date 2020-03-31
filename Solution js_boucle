@@ -1,0 +1,154 @@
+ex1
+function sumNumber(num) { 
+    let s=0
+    for(let i=0;i<=num;i++){
+     s=s+i
+    }
+    
+    return s
+    }
+    console.log(sumNumber(5))
+
+
+ex2
+  function reverse(array) { 
+     let arrReversed=array.reverse()
+     
+     return arrReversed }
+     
+     console.log(reverse([1, 2, 3, 4]))
+
+ex3
+function getLastItem(array) { 
+     
+     return array[array.length-1]}
+     console.log(getLastItem([1, 2, 3, "a"]))
+ex4
+ function concat(array1,  array2) {
+    return array1.concat(array2)}
+  console.log(concat([0, 10, 6],[900, 5, 60]))
+ex5
+function wordLengths(array) {
+       let arr2=[] 
+        for(let i=0;i<array.length;i++){
+       arr2= arr2.concat(array[i].length)
+    }
+    
+       return arr2  }
+       console.log(wordLengths(["ahmed","aaaa"]))
+ex6
+function sum(array) { 
+          let n=0
+        for(let i=0;i<array.length;i++){
+       n= n+array[i]
+    }
+    
+       return n  }
+         
+         console.log(sum([4, 10, 6]))
+
+ex7
+  function noOdds(array) { 
+  return array.filter(element => element % 2==0); 
+  }
+console.log(noOdds([1, 2, 3, 4, 5, 6, 7, 8]))
+
+ex8
+    function findLargestNum(array) { 
+   return Math.max(...array)}
+   console.log(findLargestNum([1, 2, 3, 4, 5, 6, 7, 8]))
+ex9
+
+    function findLargestNum(array) { 
+   return Math.min(...array)}
+   console.log(findLargestNum([1, 2, 3, -400, 5, 6, 7, 8]))
+
+ex10
+
+
+ex11
+ function diffMaxMin(array) { 
+    return Math.max(...array)-Math.min(...array) }
+    console.log( diffMaxMin([1, 2, 3, 4, 25, 6, 7, 18]))
+
+ex12
+function multiplyByLength(array) {
+      let arr2=[] 
+      for (let i=0;i<array.length;i++) {
+        arr2= arr2.concat(array[i]*7)
+}
+      
+      return arr2
+    
+    
+    }
+    console.log(multiplyByLength([1, 0, 3, 3, 7, 2, 1]))
+
+ex13
+
+function isFourLetters(array) { 
+       return  array.find(element => element.length ==4)
+                                  }
+           console.log(isFourLetters(["Tomato", "Potato", "Pair","aa"]))
+
+
+ex14
+ function addEnding(array, ending) {
+
+    return array.map(i => i + ending)
+  
+}
+   console.log(addEnding(["clever", "meek", "hurried", "nice"], "ly"))
+
+OR
+
+function addEnding(array, ending) {
+let arr2=[]
+    for(let i=0;i<array.length;i++){
+     console .log(array[i]+ending)
+     arr2=arr2.concat(array[i]+ending)
+    }
+    return arr2
+}
+   console.log(addEnding(["clever", "meek", "hurried", "nice"], "ly"))
+
+ex15
+function removeNull(array) { 
+      return  array.filter(i => i!= null)}
+     console.log(removeNull(["a", null, "b", null]))
+}
+ex16
+ function unlucky(nums) { 
+     return nums.filter(i => i%13 !=0) }
+          console.log(unlucky([53, 182, 435, 591, 637]))
+ex17
+function transform(array) { 
+           for(let i=0;i<array.length;i++){
+
+             array.concat(array[i]++ )                                         }
+                   return array
+}                                        
+   console.log(transform([53, 182, 435, 591, 637]))
+                                                 
+ex18
+function filterArray(array) { 
+  return array.filter(i => typeof i =="number") }
+console.log(filterArray([1, "s", "m", 0, ,15]))
+
+ex19
+  function societyName1(friends) {
+  return friends.map(i => i[0]).sort().join("")
+
+ }
+ console.log(societyName1(["Manel", "Sheima", "Amira"])
+ex20
+function findLargestNums(array) {
+
+  return array.map(x => Math.max(...x));
+}
+
+findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]);
+
+ex21
+
+
