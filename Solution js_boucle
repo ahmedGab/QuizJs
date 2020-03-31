@@ -150,5 +150,18 @@ function findLargestNums(array) {
 findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]);
 
 ex21
+function shortToLong(array) {
+        return array.sort()}
+     console.log(shortToLong(["Google", "Apple", "Microsoft"]))
+ex22
+ function toArray(array) { return array.toString().split()}
+     console.log(toArray(20))
+
+-----------------
+
+function toNumber(array) { 
+     return array.map(i => parseInt(i))
+    }
+    console.log(toNumber([1,5]))
 
 
